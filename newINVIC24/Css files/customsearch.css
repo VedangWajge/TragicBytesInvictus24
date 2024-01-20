@@ -121,6 +121,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* justify-content: center; */
 }
 
 nav a {
@@ -132,7 +133,7 @@ nav a {
 
 .search-container {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin: 0 15px;
 }
 
@@ -147,12 +148,12 @@ button {
     padding: 8px 15px;
     border: none;
     border-radius: 4px;
-    background-color: #e74c3c;
+    background-color: #00A5EC;
     color: #fff;
     cursor: pointer;
     width: 70%;
 }
 
 button:hover {
-    background-color: #c0392b;
+    background-color: #2286b1;
 }

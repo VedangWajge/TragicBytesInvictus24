@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -46,3 +47,155 @@ a {
 .options-window a:hover {
     background-color: #555;
 }
+.footerleft {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  .content {
+    flex: 1; /* This will make the content area take up the available space */
+}
+  
+  .about {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    color: white;
+  }
+  
+  .social2 {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 24px;
+  }
+  
+  .social {
+    font-family: "Acme", sans-serif;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .connect {
+    height: 24px;
+    margin: 12px;
+  }
+  
+  .footerright {
+    justify-content: center;
+    align-items: right;
+    text-align: right;
+    width: 60%;
+  }
+  
+  .footer {
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 30px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section.footer {
+    height: 20vh;
+  }
+  
+  .footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%; /* Adjust width as per your requirement */
+  }
+  
+  .column h4 {
+    color: black; /* You can choose your own color */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .panel1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #2e3e4f;
+    color: white;
+    font-size: 15px;
+}
+
+.panel1:hover {
+    background-color: #34485e;
+}
+
+.panel2 {
+    height: 250px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-position: inside;
+    padding-left: 0;
+    
+}
+.panel2 ul {
+  
+    padding-top: 20px;
+    list-style: none;
+    
+    
+}
+.panel2 a {
+    text-decoration: none;
+    color: #dddddd;
+    padding-right: 60px;
+   
+    font-size: 14px;
+    
+    padding-top: 10px;
+    
+}
+.list1 {
+   
+    color: white;
+   
+   
+}
+.panel2 p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+.panel2 li {
+    padding-left: 0;
+}
+
+.panel3 {
+    height: 150px;
+    width: 100%;
+    background-color: #222f3d;
+    border-top: 1px solid #cccccc8a;
+    display: flex;
+    justify-content: center;
+    align-items: top;  
+}
+.panel3 img {
+    height:100px;
+    width: 100px;
+    background-size: cover;
+}
+  
