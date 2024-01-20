@@ -20,12 +20,12 @@ html {
 
 .logo {
   display: flex;
+  flex-wrap: nowrap;
   width: 20%;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: large;
-  text-align: center;
-  padding-left: 7%;
+  padding: 13px;
 }
 
 .navbar {
@@ -50,7 +50,7 @@ html {
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 0px 18px;
+  padding: 4px 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -386,6 +386,7 @@ section.footer {
   /* Increased padding for better spacing */
   border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  margin: 15px 5px;
 }
 
 input[type="text"],
@@ -549,4 +550,3 @@ button:hover {
     height: 300px;
   }
 }
-
