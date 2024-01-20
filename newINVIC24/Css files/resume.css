@@ -26,9 +26,25 @@ body {
     text-align: center;
   }
   .main-section {
+    margin-left: 10px;
+    text-align: left;
     margin-top: 20px;
+    margin-right: 20px;
+    border-bottom: 4px solid lightgrey;
+  }
+  .Education{
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-bottom: 4px solid lightgrey;
   }
   .main-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .Education h2 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -38,23 +54,41 @@ body {
     margin: 0;
     padding: 0;
   }
+  .Education ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
   .main-section li {
+    margin-bottom: 5px;
+  }
+  .Education li {
     margin-bottom: 5px;
   }
   .main-section a {
     color: blue;
     text-decoration: none;
   }
+  .Education a {
+    color: blue;
+    text-decoration: none;
+  }
   .main-section a:hover {
     text-decoration: underline;
   }
+  .Education a:hover {
+    text-decoration: underline;
+  }
   .add-info {
+    margin-left: 10px;
     margin-top: 20px;
+    margin-right: 10px;
   }
   .add-info h2 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+    border-bottom: 4px solid lightgrey;
   }
   .add-info .add-info-item {
     margin-top: 10px;
@@ -79,3 +113,22 @@ body {
   .add-info .add-info-item .add-info-list a:hover {
     text-decoration: underline;
   }
+  .div{
+    width: 65%;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 2px 0px 2px 4px lightgrey;
+    height: 35rem;
+  }
+.details{
+    display: flex;
+    justify-content: center;
+}
+.add-info-item{
+    text-align: left;
+}
+.footer{
+    background-color: teal;
+    height: 20%;
+
+}
