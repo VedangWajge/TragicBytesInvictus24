@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .notification-bar {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .header {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .main-section {
+    margin-top: 20px;
+  }
+  .main-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main-section li {
+    margin-bottom: 5px;
+  }
+  .main-section a {
+    color: blue;
+    text-decoration: none;
+  }
+  .main-section a:hover {
+    text-decoration: underline;
+  }
+  .add-info {
+    margin-top: 20px;
+  }
+  .add-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .add-info .add-info-item {
+    margin-top: 10px;
+  }
+  .add-info .add-info-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .add-info .add-info-item .add-info-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .add-info .add-info-item .add-info-list li {
+    margin-bottom: 5px;
+  }
+  .add-info .add-info-item .add-info-list a {
+    color: blue;
+    text-decoration: none;
+  }
+  .add-info .add-info-item .add-info-list a:hover {
+    text-decoration: underline;
+  }
