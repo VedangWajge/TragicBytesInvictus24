@@ -120,9 +120,10 @@
     text-align: center;
 }
 .footer{
-    height: 250px;
+    height: 100px;
     background-color: black;
     display: flex;
+    justify-content: center;
 }
 .footerleft{
     justify-content: center;
@@ -134,15 +135,23 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 100%;
     margin: auto;
-    color: white;
+    color: black;
 }
 .social2{
     display: flex;
     justify-content: center;
     align-items: right;
     height: 24px;
+}
+.info{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    color: black;
 }
 .social{
     font-family: 'Acme', sans-serif;
@@ -160,8 +169,8 @@
     justify-content: center;
     align-items: right;
     text-align: right;
-    width: 50%;
-
+    width: 80%;
+    height: 80px;
 }
 .end{
     display: flex;
@@ -621,7 +630,7 @@ button:hover {
     .location{
         height: 150px;
     }
-    .footer{
+    .footerright{
         height: auto;
     }
     .social{
@@ -715,3 +724,4 @@ button:hover {
         height: 300px;
     }
 }
+

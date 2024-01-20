@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Opportunities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            max-width: 100%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex-direction: row;
+            /* Change flex direction to row */
+
+            /* Align items in the center of the row */
+        }
+
+        .course {
+            flex: 0 0 20%;
+            /* Adjust the width of each course card */
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        /* Media queries for responsiveness */
+        @media only screen and (max-width: 600px) {
+            .course {
+                flex: 0 0 100%;
+            }
+        }
+
+        .search-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .search-bar {
+            display: flex;
+            flex-wrap: wrap;
+            /* Allow items to wrap to the next line if needed */
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f2f2f2;
+            padding: 15px;
+            /* Increased padding for better spacing */
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"],
+        select {
+            flex: 1;
+            /* Expand the input and select boxes to take available space */
+            padding: 12px;
+            /* Increased padding for better appearance */
+            margin: 8px;
+            /* Adjusted margin for spacing */
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 12px 20px;
+            /* Adjusted padding for better appearance */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #0066cc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Hey, Students!
+
+    </h1>
+
+    <div class="search-container">
+        <h1>Find Yourself an Internship Now</h1>
+        <p>Internships near you provided</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter skills / designations / companies">
+            <select>
+                <option>Select experience</option>
+                <option value="fresher">Fresher(less than zero)</option>
+                <option value="1">1 year</option>
+                <option value="2">2 years</option>
+                <option value="3">3 year</option>
+                <option value="4">4 years</option>
+                <option value="5">5 years+</option>
+            </select>
+            <input type="text" placeholder="Enter location">
+            <button onclick="searchJobs()">Search</button>
+        </div>
+
+        <header>
+            <h1>Trending Opportunities</h1>
+        </header>
+
+        <section class="container">
+            <div class="course">
+                <img src="web_development.jpg" alt="Web Development Fundamentals">
+                <h2>Web Development Fundamentals</h2>
+                <p>Master the basics of HTML, CSS, and JavaScript to build responsive websites.</p>
+            </div>
+
+            <div class="course">
+                <img src="data_science.jpg" alt="Data Science with Python">
+                <h2>Data Science with Python</h2>
+                <p>Explore the world of data science using Python and popular libraries like Pandas and NumPy.</p>
+            </div>
+
+            <div class="course">
+                <img src="mobile_app_development.jpg" alt="Mobile App Development with React Native">
+                <h2>Mobile App Development with React Native</h2>
+                <p>Learn to build cross-platform mobile apps using React Native framework.</p>
+            </div>
+
+            <div class="course">
+                <img src="machine_learning.jpg" alt="Machine Learning for Beginners">
+                <h2>Machine Learning for Beginners</h2>
+                <p>An introduction to machine learning concepts and algorithms for beginners.</p>
+            </div>
+
+            <!-- Add more courses as needed -->
+
+        </section>
+
+</body>
+
+</html>
