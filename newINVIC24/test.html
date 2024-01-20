@@ -3,56 +3,142 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internify - Your Gateway to Internships</title>
+    <link rel="stylesheet" href="test.css">
+    <title>Internify</title>
 
 </head>
 
 <body>
-
-    <header>
-        <h1>Internify</h1>
-    </header>
-
-    <nav>
-        <div>
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#internships">Internships</a>
-            <a href="#contact">Contact</a>
-        </div>
-
-        <div class="search-container">
-            <input type="text" placeholder="Search...">
-            <button type="submit">Search</button>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
+                    <h1>Internify</h1>
+                </a></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="service.html">Community</a></li>
+            <li> <a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <div class="navright">
+            <button class="btn btn-sm"> <a href="registernew.html">Register</a></button>
+            <button class="btn btn-sm"> <a href="loginnew.html">Login</a> </button>
         </div>
     </nav>
 
-    <section>
-        <h1>Discover Exciting Internship Opportunities</h1>
-        <p>Internify is your gateway to meaningful internships. Explore a wide range of opportunities and kickstart
-            your career.</p>
-
-        <div class="left homecontent">
-            <h2>Why Internify?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel suscipit urna, nec tincidunt nunc.
-                Proin tristique eu odio ut vulputate. Duis vitae velit eu mi tempus cursus.</p>
+    <div class="search-container">
+        <h1>Find Yourself an Internship Now</h1>
+        <p>Internships near you provided</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter skills / designations / companies">
+            <select>
+                <option>Select experience</option>
+                <option value="fresher">Fresher(less than zero)</option>
+                <option value="1">1 year</option>
+                <option value="2">2 years</option>
+                <option value="3">3 year</option>
+                <option value="4">4 years</option>
+                <option value="5">5 years+</option>
+            </select>
+            <input type="text" placeholder="Enter location">
+            <button onclick="searchJobs()">Search</button>
         </div>
+    </div>
 
-        <div class="right homecontent">
-            <h2>Our Mission</h2>
-            <p>At Internify, our mission is to connect students and employers through quality internships. We believe
-                in creating valuable experiences for both.</p>
+
+    <section class="sec1">
+        <div class="sec1center">
+            <p class="heading1">Find yourself an internship now</p>
+            <a href="nearbyngo.html"><button class="btn btn-big-left"> Know More </button></a>
         </div>
-
-
     </section>
 
-    <button>Get It Now </button>
-    <footer>
-        <p>&copy; 2024 Internify. All rights reserved.</p>
-    </footer>
+    <section class="work1">
+        <div class="work2">
+            <p class="work3">Explore Nearby Intern Opportunities</p>
+            <p class="work4">Discover nearby Internship Opportunities with convenient and easy apply options. Easily
+                give interview online and start working.</p>
+            <div class="work7">
+                <div class="work5">
+                    <iframe
+                        src="https://www.google.com/maps/d/u/0/embed?mid=1AaEnsv2L9bMJkubYUridQ5g-X0z0Xnc&ehbc=2E312F&noprof=1"
+                        width="90%" height="480" class="map1"></iframe>
+                </div>
+                <div>
+                    <a href="nearbyngo.html"><button class="btn btn-big-right"> Explore </button></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="tab1">
+        <div class="tab2">
+            <div class="tab3">
+                <img src="./ggicons/coins.png" alt="img" class="tab4">
+                <p class="t1">Discover a sustainable solution</p>
+                <p class="t2">Whether you're looking to responsibly dispose of your electronic waste or recycle your old
+                    devices e-Waste Portal has the perfect solution for you. Explore our wide range of electronic waste
+                    disposal options and recycling routes.
+                </p>
+            </div>
+            <div class="tab3">
+                <img src="./ggicons/trustcard.png" alt="img" class="tab4">
+                <p class="t1">Trust our E-Waste Community</p>
+                <p class="t2">We prioritize building a community of trust. We believe in taking the time to understand
+                    each of our members and e-Waste disposal partners so that you know whom you are donating and can
+                    recycle at ease on our secure platform.
+                </p>
+            </div>
+            <div class="tab3">
+                <img src="./ggicons/current.png" alt="img" class="tab4">
+                <p class="t1">Scroll, click, tap and go!</p>
+                <p class="t2">Recycling your E-devices has never been easier! Thanks to our simple web portal powered by
+                    great technology, you can recycle your E-device in just minutes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="background firstsection">
+    </section>
+
+    <section class="footer">
+        <div class="footerleft">
+            <p class="social">About Us</p>
+            <p class="about">We are on a mission to redefine cleanliness. With a passion for pristine spaces and a
+                commitment to environmental responsibility, we deliver top-notch cleaning solutions that not only exceed
+                your expectations but also contribute to a healthier planet. Join us in our journey towards a cleaner,
+                greener future.
+            </p>
+        </div>
+        <div class="footerright">
+            <p class="social">Connect with us</p>
+            <div class="social2">
+                <a href="https://www.facebook.com/ewasterj/"><img src="./ggicons/facebook.png" alt="facebook"
+                        class="connect"></a>
+                <a href="https://www.instagram.com/ewasterj/?igshid=MzRlODBiNWFlZA%3D%3D"><img
+                        src="./ggicons/instagram.png" alt="instagram" class="connect"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FEwasteRJ"><img
+                        src="./ggicons/twitter.png" alt="twitter" class="connect"></a>
+                <a href="https://www.youtube.com/channel/UC5t1yzcu3o5OGSsONxZc9yg"><img src="./ggicons/youtube.png"
+                        alt="youtube" class="connect"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <div class="endleft">
+            <p class="end1">© 2023</p>
+        </div>
+        <div class="endright">
+            <ul class="end2">
+                <li> <a href="#termsofuse"> Terms of Use</a></li>
+                <li> <a href="#privacypolicy"> Privacy Policy</a></li>
+                <li> <a href="#license"> License</a></li>
+            </ul>
+        </div>
+    </section>
 </body>
 
 </html>
