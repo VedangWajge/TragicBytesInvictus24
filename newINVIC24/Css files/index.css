@@ -426,18 +426,18 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 50px;
-  background-color: #2e3e4f;
+  background-color: #0f4366;
   color: white;
   font-size: 15px;
 }
 
 .panel1:hover {
-  background-color: #34485e;
+  background-color: #3498db;
 }
 
 .panel2 {
   height: 250px;
-  background-color: #222f3d;
+  background-color: #5093bf;
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -484,7 +484,7 @@ button:hover {
 .panel3 {
   height: 150px;
   width: 100%;
-  background-color: #222f3d;
+  background-color: #3498db;
   border-top: 1px solid #cccccc8a;
   display: flex;
   justify-content: center;
