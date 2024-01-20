@@ -182,6 +182,9 @@ function redirectToLog() {
 function redirectToResume() {
   window.location.href = "resume.html";
 }
+function redirectToAbout() {
+  window.location.href = "about.html";
+}
 function showOptions(element) {
   const optionsWindow = element.querySelector('.options-window');
   optionsWindow.style.display = 'block';
@@ -193,3 +196,4 @@ function hideOptions() {
       window.style.display = 'none';
   });
 }
+
