@@ -56,5 +56,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function viewDetails() {
-    alert('Viewing Details');
+    
+    window.location.href = "internships.html";
 }
