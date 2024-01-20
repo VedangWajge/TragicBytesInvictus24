@@ -179,6 +179,9 @@ function redirectToHome() {
 function redirectToLog() {
   window.location.href = "login.html";
 }
+function redirectToResume() {
+  window.location.href = "resume.html";
+}
 function showOptions(element) {
   const optionsWindow = element.querySelector('.options-window');
   optionsWindow.style.display = 'block';

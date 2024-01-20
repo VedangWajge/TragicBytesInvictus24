@@ -6,28 +6,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Engineering Internships</title>
 	<link rel="stylesheet" type="text/css" href="Css files/customsearch.css">
+	<link rel="stylesheet" href="./Css files/index.css">
 </head>
 
 <body>
 
-	<header>
-		<h1>Internify</h1>
-	</header>
 
-	<nav>
-		<div>
-			<a href="#home">Home</a>
-			<a href="#about">About Us</a>
-			<a href="#internships">Internships</a>
-			<a href="#contact">Contact</a>
-			
-		</div>
-		<div class="search-container">
-			<input type="text" placeholder="Search..." />
-			<button type="submit">Search</button>
-		</div>
-		
-	</nav>
+	<nav class="navbar">
+        <ul class="navlist">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
+                    <h1>Internify</h1>
+                </a></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="service.html">Community</a></li>
+            <li> <a href="contactus.html">Contact Us</a></li>
+            <li><a href="customsearch.html">Internship</a></li>
+
+           
+
+            <div class="navright">
+                <button class="btn btn-sm" id="regId" onclick="redirectToReg()"> Register</button>
+                <button class="btn btn-sm" id="logId" onclick="redirectToLog()">Login </button>
+            </div>
+    </nav>
 	<main>
 		<section id="filters">
 			<h2>Filters</h2>
@@ -89,7 +91,7 @@
 					<li><strong>STIPEND:</strong>₹ 1,000-10,000 /month</li>
 				</ul>
 				<div class="posted">4 days ago | Internship with job offer | Part time</div>
-				<button onclick="viewDetails()">View details</button>
+				<button onclick="viewDetails2()">View details</button>
 			</div>
 
 			<div class="job-card" id="jobcard">
@@ -103,7 +105,7 @@
 					<li><strong>STIPEND:</strong>₹ 8,000 /month</li>
 				</ul>
 				<div class="posted">2 days ago | Internship </div>
-				<button onclick="viewDetails()">View details</button>
+				<button onclick="viewDetails3()">View details</button>
 			</div>
 		</section>
 
@@ -113,6 +115,7 @@
 			from Web Dev., React Java Python & more Internify Certified Trainings Enroll now ></p>
 	</footer>
 	<script src="JS files/customsearch.js"></script>
+	<script src="csbox.js"></script>
 </body>
 
 </html>
