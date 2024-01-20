@@ -644,6 +644,11 @@ button:hover {
 
 .status {
   color: green;
+  padding: 13px 2px;
+}
+
+.status2 {
+padding: 7px 2px;
 }
 
 .work-from-home {
