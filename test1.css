@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.options-window {
+    display: none;
+    position: absolute;
+    top: 100%; /* Show options window below the nav item */
+    left: 0;
+    background-color: #222;
+    padding: 10px;
+}
+
+.options-window a {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.options-window a:hover {
+    background-color: #555;
+}
