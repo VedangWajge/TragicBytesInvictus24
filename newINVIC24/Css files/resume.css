@@ -26,14 +26,16 @@ body {
     text-align: center;
   }
   .main-section {
-    margin-left: 10px;
+    display: flex;
+    margin-left: 15px;
     text-align: left;
     margin-top: 20px;
     margin-right: 20px;
     border-bottom: 4px solid lightgrey;
   }
   .Education{
-    margin-left: 10px;
+    display: flex;
+    margin-left: 15px;
     text-align: left;
     margin-top: 20px;
     margin-right: 20px;
@@ -60,10 +62,10 @@ body {
     padding: 0;
   }
   .main-section li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .Education li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .main-section a {
     color: blue;
@@ -87,7 +89,7 @@ body {
   .add-info h2 {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-bottom: 4px solid lightgrey;
   }
   .add-info .add-info-item {
@@ -96,7 +98,7 @@ body {
   .add-info .add-info-item h3 {
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
   .add-info .add-info-item .add-info-list {
     list-style-type: none;
@@ -114,7 +116,7 @@ body {
     text-decoration: underline;
   }
   .div{
-    width: 65%;
+    width: 800px;
     text-align: center;
     border: 1px solid transparent;
     box-shadow: 2px 0px 2px 4px lightgrey;
@@ -125,10 +127,27 @@ body {
     justify-content: center;
 }
 .add-info-item{
+    margin-left: 15px;
+    display: flex;
     text-align: left;
 }
 .footer{
     background-color: teal;
     height: 20%;
 
+}
+.download{
+    margin-left: 50%;
+}
+.edu-info{
+    margin-left: 80px;
+}
+.work-expo{
+margin-left: 50%;
+list-style-type: none;
+}
+.por{
+
+    list-style-type: none;
+    margin-left: 50%;
 }
