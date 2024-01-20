@@ -1,26 +1,36 @@
-let currentSlide = 0;
+let slideIndex = 0;
+showSlides(); // call showslide method
 
-function showSlide(index) {
-    const slides = document.getElementsByClassName("slide");
+function showSlides() {
+	let i;
 
-    if (index >= slides.length) {
-        currentSlide = 0;
-    } else if (index < 0) {
-        currentSlide = slides.length - 1;
-    } else {
-        currentSlide = index;
-    }
+	// get the array of divs' with classname image-sliderfade
+	let slides = document.getElementsByClassName("image-sliderfade");
 
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
+	// get the array of divs' with classname dot
+	let dots = document.getElementsByClassName("dot");
 
-    slides[currentSlide].style.display = "block";
+	for (i = 0; i < slides.length; i++) {
+		// initially set the display to
+		// none for every image.
+		slides[i].style.display = "none";
+	}
+
+	// increase by 1, Global variable
+	slideIndex++;
+
+	// check for boundary
+	if (slideIndex > slides.length) {
+		slideIndex = 1;
+	}
+
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+
+	slides[slideIndex - 1].style.display = "block";
+	dots[slideIndex - 1].className += " active";
+
+	// Change image every 2 seconds
+	setTimeout(showSlides, 2000);
 }
-
-function changeSlide(n) {
-    showSlide(currentSlide += n);
-}
-
-// Initial display
-showSlide(currentSlide);

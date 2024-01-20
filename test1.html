@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Image Slider</title>
-</head>
-
+<html>
+<link rel="stylesheet" href="test1.css">
 <body>
-    <div class="slider-container">
-        <div class="slide fade">
-            <img src="./newINVIC24/img files/freshersimng (1).png" alt="Image 1">
-        </div>
-        <div class="slide fade">
-            <img src="./newINVIC24/img files/Screenshot 2024-01-20 133918 (1).png" alt="Image 2">
-        </div>
-        <div class="slide fade">
-            <img src="./newINVIC24/img files/Screenshot 2024-01-20 134236 (1).png" alt="Image 3">
-        </div>
+	<!--HTML Code-->
+	<!-- Slideshow Container Div -->
+	<div class="container">
+		<!-- Full-width images with caption text -->
+		<div class="image-sliderfade fade">
+			<img src="./newINVIC24/img files/freshersimng (1).png"
+				style="width: 100%" />
+			<div class="text">Image caption 1</div>
+		</div>
 
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
-    </div>
+		<div class="image-sliderfade fade">
+			<img src="./newINVIC24/img files/Screenshot 2024-01-20 133918 (1).png"
+				style="width: 100%" />
+			<div class="text">Image caption 2</div>
+		</div>
 
-    <script src="script.js"></script>
+		<div class="image-sliderfade fade">
+			<img src="./newINVIC24/img files/Screenshot 2024-01-20 134236 (1).png"
+				style="width: 100%" />
+			<div class="text">Image caption 3</div>
+		</div>
+
+		<div class="image-sliderfade fade">
+			<img src="./newINVIC24/img files/Untitled design (2) (1).png"
+				style="width: 100%" />
+			<div class="text">Image caption 4</div>
+		</div>
+	</div>
+	<br />
+
+	<!-- The dots/circles -->
+	<div style="text-align: center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+    <script src="test1.js" ></script>
 </body>
 
 </html>
