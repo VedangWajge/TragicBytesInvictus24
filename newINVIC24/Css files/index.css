@@ -27,14 +27,18 @@ html {
   font-size: large;
   padding: 13px;
 }
+/* Nav bar */
+
 
 .navbar {
   display: flex;
   position: sticky;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   cursor: pointer;
   top: 0;
+    height: 56px;
+    padding: 0;
   background-color: #3498db;
   /* opacity: 1; */
   z-index: 3;
@@ -65,12 +69,16 @@ html {
 }
 
 .navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   background-color: #3498db;
   width: 50%;
   text-align: right;
   justify-content: center;
   margin: auto;
 }
+/* Nav bar */
 
 .btn {
   cursor: pointer;
@@ -90,6 +98,7 @@ a {
 }
 
 .btn-sm {
+    width: 100px;
   border-radius: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -146,12 +155,13 @@ a {
   padding: 10px 0px;
   text-align: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 
 .connect {
   height: 24px;
   margin: 12px;
+  color: black;
 }
 
 .footerright {
@@ -162,7 +172,7 @@ a {
 }
 
 .footer {
-  background-color: rgb(66, 66, 66);
+  background-color: #F0FBFF;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -339,18 +349,18 @@ section.footer {
   font-weight: 600;
   padding: 10px 30px;
   padding-top: 30px;
-  color: white;
+  color: black;
 }
 
 .work4 {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px 30px;
-  color: white;
+  color: black;
 }
 
 .work1 {
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(255, 255, 255);
   box-shadow: -100px 0px 0px 0px rgb(220, 254, 250, 0.7);
 }
 
@@ -423,11 +433,34 @@ button:hover {
   background-color: #2976aa;
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    /* padding: 20px; */
+    margin-top: auto; /* Push the footer to the bottom */
+}
+footer .panel1,
+footer .panel2 {
+    display: flex;
+    justify-content: space-between;
+}
+footer .list1 {
+    margin-top: 20px;
+}
+footer ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+}
+footer li {
+    margin-bottom: 8px;
+}
 .panel1 {
-
-  display: flex;
+  /* display: grid;
   justify-content: center;
+  align-items: center; */
   align-items: center;
+  flex-direction: column;
   height: 50px;
   background-color: #0f4366;
   color: white;
@@ -439,22 +472,18 @@ button:hover {
 }
 
 .panel2 {
-  height: 250px;
+  height: 290px;
   background-color: #5093bf;
   color: white;
   display: flex;
   justify-content: space-evenly;
   list-style-position: inside;
   padding-left: 0;
-
 }
 
 .panel2 ul {
-
   padding-top: 20px;
   list-style: none;
-
-
 }
 
 .panel2 a {
@@ -465,14 +494,10 @@ button:hover {
   font-size: 14px;
 
   padding-top: 10px;
-
 }
 
 .list1 {
-
   color: white;
-
-
 }
 
 .panel2 p {
@@ -498,6 +523,20 @@ button:hover {
   height: 100px;
   width: 100px;
   background-size: cover;
+}
+
+/* footer */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure that the body takes at least the full viewport height */
+}
+.content {
+    flex: 1; /* This will make the content area take up the available space */
+    padding: 20px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -647,7 +686,7 @@ button:hover {
   padding: 13px 2px;
 }
 
-.status {
+.status2 {
 padding: 7px 2px;
 }
 
