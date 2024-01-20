@@ -9,38 +9,21 @@
 <link rel="stylesheet" href="Css files/resume.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="Internify-logo">
-                Internify
-
-            </div>
-            <div class="Internships">
-                Internships
-                <img src="" alt="">
-            </div>
-            <div class="Courses">
-                Cources
-            </div>
-            <div class="Jobs">
-                Jobs
-            </div>
-            <div class="Clubs">
-                Clubs
-            </div>
-            <div class="save-logo">
-                <i class="fa-regular fa-bookmark"></i>
-            </div>
-            <div class="msg-logo">
-                <i class="fa-regular fa-message"></i>
-            </div>
-            <div class="profile">
-
-            </div>
-            
-        </div>   
-
-    </header>
+  <nav class="navbar">
+    <ul class="navlist">
+        <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
+                <h1>Internify</h1>
+            </a></div>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="about.html">About</a></li>
+        <li> <a href="service.html">Community</a></li>
+        <li> <a href="contactus.html">Contact Us</a></li>
+        <li><a href="customsearch.html">Internship</a></li>
+        <div class="navright">
+            <button class="btn btn-sm" id="regId" onclick="redirectToReg()"> Register</button>
+            <button class="btn btn-sm" id="logId" onclick="redirectToLog()">Login </button>
+        </div>
+</nav>
     <div class="header">
       <h1>Your resume</h1>
     </div>
@@ -122,10 +105,62 @@
         
     </section>
     <footer>
-        <div class="footer">
-            
-        </div>
-    </footer>
+      <div class="panel1"> <a href="#" style="text-align: center; color: white;">Back to top</a></div>
+
+      <div class="panel2">
+
+          <div class="list1">
+              <p style="font-weight: 700;font-size: 16px; color: white; ">Internship by places</p>
+              <style>
+                  ul {
+                      list-style-position: inside;
+                      padding-left: 0;
+                  }
+              </style>
+              <ul>
+                  <li><a href="#">Internship in India</a></li>
+                  <li><a href="#">Internship in Banglore</a></li>
+                  <li><a href="#">Internship in Mumbai</a></li>
+                  <li><a href="#">Internship in Pune</a></li>
+                  <li><a href="#">Internship in Delhii</a></li>
+                  <li><a href="#">Internship in Jaipur</a></li>
+                  <li><a href="#">Internship in Chennai</a></li>
+              </ul>
+          </div>
+
+          <div class="list1">
+              <p style="font-weight: 700;font-size: 16px; color: white; ">Internship by Stream</p>
+              <ul>
+                  <li><a href="#">Computer Science Internship</a></li>
+                  <li><a href="#">Electronics Internship</a></li>
+                  <li><a href="#">Mechanical Internship</a></li>
+                  <li><a href="#">Civil Internship</a></li>
+                  <li><a href="#">Marketing Internship</a></li>
+                  <li><a href="#">Chemical Internship</a></li>
+                  <li><a href="#">Finance Internship</a></li>
+                  <li><a href="#">Summer Research Internship</a></li>
+
+              </ul>
+          </div>
+
+
+          <div class="list1">
+              <p style="font-weight: 700;font-size: 16px; color: white; ">About Internify</p>
+              <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="recruit.html">Hire interns for your company</a></li>
+                  <li><a href="#">Team Diary</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Summer Research Internship</a></li>
+
+
+              </ul>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>
 

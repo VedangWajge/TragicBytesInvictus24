@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="./Css files/internships.css" />
   </head>
   <body>
-    <header>
-      <h1>Internify</h1>
-    </header>
+  
     <!-- navbar -->
-    <nav>
-      <div>
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#internships">Internships</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-      <div class="search-container">
-        <input type="text" placeholder="Search..." />
-        <button type="submit">Search</button>
-      </div>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
+                    <h1>Internify</h1>
+                </a></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="service.html">Community</a></li>
+            <li> <a href="contactus.html">Contact Us</a></li>
+            <li><a href="customsearch.html">Internship</a></li>
+            <div class="navright">
+                <button class="btn btn-sm" id="regId" onclick="redirectToReg()"> Register</button>
+                <button class="btn btn-sm" id="logId" onclick="redirectToLog()">Login </button>
+            </div>
     </nav>
     <!-- navbar -->
     <h1>WhatsApp Marketing Intern</h1>
@@ -151,12 +151,14 @@
         </div>
         
         <div class="apply">
-            <button>Apply Now</button>
+            <button onclick="redirectToResume()">Apply Now</button>
         </div>
     </div>
 
         </div>
       </div>
     </div>
+    <script src="./JS files/loginregister.js"></script>
+
   </body>
 </html>

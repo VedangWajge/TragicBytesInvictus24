@@ -13,7 +13,7 @@ body {
     margin: auto;
 }
 
-nav {
+/* nav {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
@@ -23,48 +23,53 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
+} */
 
-header {
+/* header {
     width: 100%;
     background-color: #3498db;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-}
+} */
 
-nav a {
+/* nav a {
     text-decoration: none;
     color: #fff;
     margin: 0 15px;
     font-size: 1.2em;
-}
+} */
 
-.search-container {
+/* .search-container {
     display: flex;
     align-items: center;
     margin: 0 15px;
 
-}
+} */
 
-input[type="text"] {
+/* input[type="text"] {
     padding: 8px;
     border: none;
     border-radius: 4px;
     margin-right: 5px;
-}
+} */
 
 button {
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    background-color: #00A5EC;
-    color: #fff;
-    cursor: pointer;
+    width: 100px;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+  margin: 6.5px 15px;
+  font-size: 12px;
+  vertical-align: middle;
+  padding: 6px 10px;
+  background-color: white;
+  color: black;
 }
 
 button:hover {
-    background-color: #c0392b;
+    background-color:rgb(194, 194, 194) ;
 }
 
 /* navbar */
@@ -306,4 +311,53 @@ body {
     button {
         padding: 20px 30px;
     }
+}
+.navbar {
+    width: 100%;
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  align-items: baseline;
+  cursor: pointer;
+  top: 0;
+    height: 56px;
+    padding: 0;
+  background-color: #3498db;
+  /* opacity: 1; */
+  z-index: 3;
+}
+
+.navlist {
+  width: 90%;
+  background-color: #3498db;
+  display: flex;
+}
+
+.navlist li {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 4px 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navlist li a:hover {
+  color: gray;
+}
+
+.navright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #3498db;
+  width: 50%;
+  text-align: right;
+  justify-content: center;
+  margin: auto;
 }
