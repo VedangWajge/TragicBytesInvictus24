@@ -3,22 +3,28 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px auto;
 }
+
 nav {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
+
 header {
     width: 100%;
     background-color: #3498db;
@@ -26,6 +32,7 @@ header {
     text-align: center;
     padding: 1em 0;
 }
+
 nav a {
     text-decoration: none;
     color: #fff;
@@ -37,6 +44,7 @@ nav a {
     display: flex;
     align-items: center;
     margin: 0 15px;
+
 }
 
 input[type="text"] {
@@ -45,10 +53,11 @@ input[type="text"] {
     border-radius: 4px;
     margin-right: 5px;
 }
+
 button {
-    padding: 8px 15px;
+    padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     background-color: #e74c3c;
     color: #fff;
     cursor: pointer;
@@ -57,11 +66,13 @@ button {
 button:hover {
     background-color: #c0392b;
 }
+
 /* navbar */
 h1 {
     margin-top: 2vh;
     text-align: center;
 }
+
 .body {
     border: 1px solid #EEE;
     height: 1411px;
@@ -69,24 +80,26 @@ h1 {
     margin-top: 5vh;
     padding: 24px 24px 0 24px;
 }
+
 .hiring {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    
+
     height: 15px;
     width: 20vh;
 }
+
 .first-box {
     height: 242.613px;
     width: 890px;
-    
+
 }
 
 
 /* Responsive styles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     header h1 {
         font-size: 24px;
     }
@@ -103,6 +116,9 @@ h1 {
     .search-container {
         margin-top: 10px;
     }
+
+
+
 }
 
 /* Styles for your content */
@@ -119,7 +135,7 @@ h1 {
 }
 
 .first-box {
-    
+
     padding: 20px;
     margin-top: 20px;
 }
@@ -136,10 +152,12 @@ h1 {
         padding: 10px;
     }
 }
+
 * {
     padding: 0;
     margin: 0;
 }
+
 .details {
     margin-top: 15px;
     width: 890px;
@@ -149,33 +167,40 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
 .c {
     flex: 1;
-            column-count: 2;
-            column-gap: 20px; /* Adjust the gap as needed */
-            margin-bottom: 20px; /* Add margin between rows */
+    column-count: 2;
+    column-gap: 20px;
+    /* Adjust the gap as needed */
+    margin-bottom: 20px;
+    /* Add margin between rows */
 }
+
 .c p {
     margin-bottom: 10px;
 }
+
 .posted {
     display: flex;
     align-items: center;
     margin-top: 15px;
     justify-content: space-evenly;
 }
+
 .posted_when {
     height: 16px;
     width: 70px;
-   text-align: center;
+    text-align: center;
     border-radius: 4px;
     background-color: #F1FFE5;
-    color:#13800D ;
+    color: #13800D;
     font-size: 12px;
 
 }
+
 .internship {
-   text-align: center;
+    text-align: center;
 
     width: 56.5px;
     height: 16px;
@@ -185,8 +210,9 @@ h1 {
     border-radius: 4px;
 
 }
+
 .type {
-   text-align: center;
+    text-align: center;
 
     width: 56.5px;
     height: 16px;
@@ -201,41 +227,50 @@ h1 {
     padding: 20px;
     margin: 20px;
 }
+
 .second-box li {
-    color:#635c5c ;
+    color: #635c5c;
 }
 
 body {
     font-family: Arial, sans-serif;
-  }
-  .container {
+}
+
+.container {
     width: 80%;
-   
-  }
-  .section {
+
+}
+
+.section {
     margin-top: 20px;
-  }
-  .section h2 {
+}
+
+.section h2 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
-  }
-  .section ul {
+}
+
+.section ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  .section li {
+}
+
+.section li {
     margin-bottom: 5px;
-  }
-  .section a {
+}
+
+.section a {
     color: blue;
     text-decoration: none;
-  }
-  .section a:hover {
+}
+
+.section a:hover {
     text-decoration: underline;
-  }
-  .apply-button {
+}
+
+.apply-button {
     background-color: blue;
     color: white;
     padding: 10px 20px;
@@ -244,12 +279,31 @@ body {
     margin-top: 20px;
     display: inline-block;
     text-decoration: none;
-  }
-  .apply-button:hover {
-    background-color: darkblue;
-  }
+}
 
-  .apply {
+.apply-button:hover {
+    background-color: darkblue;
+}
+
+.apply {
     margin-top: 10px;
     margin-left: 50vh;
-  }
+}
+
+@media only screen and (max-width: 950px) {
+    nav {
+        /* display: block;
+        position: relative; */
+        width: 70rem;
+        height: 7em;
+    }
+
+    header {
+        width: 70rem;
+    }
+
+    button {
+        padding: 20px 30px;
+    }
+
+}
