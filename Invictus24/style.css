@@ -220,6 +220,7 @@
     height: 500px;
 }
 .sec1left{
+    display: flex;
     text-align: left;
     width: 30%;
     padding-top: 10%;
