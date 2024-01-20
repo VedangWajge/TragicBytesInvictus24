@@ -68,3 +68,29 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.job-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+}
+
+.status {
+    color: green;
+}
+
+.work-from-home {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
