@@ -43,12 +43,12 @@ body {
   }
   .main-section h2 {
     font-size: 20px;
-    font-weight: bold;
+    color: grey;
     margin-bottom: 10px;
   }
   .Education h2 {
     font-size: 20px;
-    font-weight: bold;
+    color: grey;
     margin-bottom: 10px;
   }
   .main-section ul {
@@ -88,7 +88,7 @@ body {
   }
   .add-info h2 {
     font-size: 20px;
-    font-weight: bold;
+    color: grey;
     margin-bottom: 20px;
     border-bottom: 4px solid lightgrey;
   }
@@ -97,7 +97,7 @@ body {
   }
   .add-info .add-info-item h3 {
     font-size: 16px;
-    font-weight: bold;
+    color: grey;
     margin-bottom: 15px;
   }
   .add-info .add-info-item .add-info-list {
@@ -120,7 +120,7 @@ body {
     text-align: center;
     border: 1px solid transparent;
     box-shadow: 2px 0px 2px 4px lightgrey;
-    height: 35rem;
+    height: 100%;
   }
 .details{
     display: flex;
@@ -130,6 +130,7 @@ body {
     margin-left: 15px;
     display: flex;
     text-align: left;
+    border-bottom: 4px solid lightgrey;
 }
 .footer{
     background-color: teal;
