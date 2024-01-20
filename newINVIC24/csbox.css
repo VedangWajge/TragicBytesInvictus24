@@ -1,0 +1,24 @@
+.job-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.status {
+    color: green;
+}
+
+.work-from-home {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
