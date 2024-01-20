@@ -55,13 +55,6 @@ p {
     color: #555;
 }
 
-/* Media queries for responsiveness */
-@media only screen and (max-width: 600px) {
-    .course {
-        flex: 0 0 100%;
-    }
-}
-
 .search-container {
     max-width: 1000px;
     margin: auto;
@@ -109,4 +102,11 @@ button {
 
 button:hover {
     background-color: #0066cc;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+    .course {
+        flex: 0 0 100%;
+    }
 }
