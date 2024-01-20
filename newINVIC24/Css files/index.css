@@ -373,6 +373,9 @@ section.footer {
 .search-container {
   max-width: 1000px;
   margin: auto;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .search-bar {
@@ -549,4 +552,7 @@ button:hover {
     height: 300px;
   }
 }
+
+
+
 
