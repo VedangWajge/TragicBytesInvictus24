@@ -666,3 +666,11 @@ ul {
   font-weight: 700;
   color: #333333;
 }
+
+#sechead{
+  font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #484848;
+    margin: 0;
+}
