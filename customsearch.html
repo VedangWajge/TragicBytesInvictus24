@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Engineering Internships</title>
+	<link rel="stylesheet" type="text/css" href="./newINVIC24/Css files/customsearch.css">
+</head>
+<body>
+	<header>
+		<h1>Engineering Internships</h1>
+		<p>Find your dream internship today!</p>
+	</header>
+	<main>
+		<section id="filters">
+			<h2>Filters</h2>
+			<form id="filterForm">
+				<label for="preferences">As per my preferences:</label>
+				<select id="preferences" name="preferences">
+					<option value="all">All</option>
+					<option value="profile">Profile</option>
+					<option value="location">Location</option>
+					<option value="work-from-home">Work from home</option>
+					<option value="part-time">Part-time</option>
+					<option value="stipend">Desired minimum monthly stipend</option>
+				</select>
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location" placeholder="e.g., Delhi">
+				<label for="work-from-home">Work from home:</label>
+				<input type="checkbox" id="work-from-home" name="work-from-home">
+				<label for="part-time">Part-time:</label>
+				<input type="checkbox" id="part-time" name="part-time">
+				<label for="stipend">Desired minimum monthly stipend (£):</label>
+				<input type="range" id="stipend" name="stipend" min="0" max="10000" step="2000" value="0">
+				<button type="button" onclick="applyFilters()">Apply filters</button>
+				<button type="button" onclick="clearFilters()">Clear all</button>
+			</form>
+		</section>
+		<section id="listings">
+			<h2>Internship Listings</h2>
+			<form id="searchForm">
+				<label for="search">Keyword Search:</label>
+				<input type="text" id="search" name="search" placeholder="e.g., Design, Mumbai Infosys">
+				<button type="button" onclick="searchInternships()">Search</button>
+			</form>
+			<ul id="internshipList">
+				<!-- Internship listings will be dynamically added here -->
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>Final hours to get FREE Placement Assistance OFFER By enrolling in online trainings at 55%+10% OFF! Offer ends in: 07h:21m:10s Choose from Web Dev., React Java Python & more Internshala Certified Trainings Enroll now ></p>
+	</footer>
+	<script src="./newINVIC24/JS files/customsearch.js"></script>
+</body>
+</html>
