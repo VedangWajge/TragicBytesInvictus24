@@ -320,7 +320,8 @@ body {
 
 /* Add this style for equalizing image size */
 .course img {
-    height: 200px; /* Set your desired height */
+    height: 200px;
+    /* Set your desired height */
     object-fit: cover;
 }
 
