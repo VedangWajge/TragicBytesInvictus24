@@ -185,7 +185,9 @@ list-style-type: none;
   padding: 4px 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#intern {
+  margin-top: 9px;
+}
 .navlist li a {
   text-decoration: none;
   color: white;

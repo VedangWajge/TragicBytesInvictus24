@@ -9,7 +9,7 @@
   display: flex;
   position: sticky;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   cursor: pointer;
   width: 100%;
   top: 0;
@@ -47,12 +47,13 @@
 .navright {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   background-color: #3498db;
   width: 50%;
   text-align: right;
   justify-content: center;
   margin: auto;
+  margin-top: 6px;
 }
 
 .btn {
@@ -133,7 +134,7 @@ footer li {
 }
 
 .panel2 {
-  height: 290px;
+  height: 310px;
   background-color: #5093bf;
   color: white;
   display: flex;
@@ -171,7 +172,7 @@ footer li {
 }
 
 .panel3 {
-  height: 150px;
+  height: 170px;
   width: 100%;
   background-color: #3498db;
   border-top: 1px solid #cccccc8a;
@@ -213,10 +214,12 @@ body {
 }
 
 header {
-  background-color: #3498db;
+  /* background-color: #3498db; */
+  margin-top: 10px;
   color: #fff;
   text-align: center;
   padding: 1em 0;
+  
 }
 
 section {
@@ -232,6 +235,7 @@ section {
 h1,
 h2 {
   color: #333;
+  align-items: baseline;
   margin-bottom: 20px;
 }
 
@@ -246,7 +250,12 @@ ul {
   list-style-type: disc;
   margin-left: 20px;
 }
-
+#intern {
+    color: white;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 10px;
+}
 @media only screen and (max-width: 768px) {
   section {
     padding: 15px;
