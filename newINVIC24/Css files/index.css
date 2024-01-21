@@ -38,7 +38,7 @@ html {
   align-items: baseline;
   cursor: pointer;
   top: 0;
-  height: 56px;
+  height: 20%;
   padding: 0;
   background-color: #3498db;
   /* opacity: 1; */
@@ -564,7 +564,7 @@ body {
 @media only screen and (max-width: 900px) {
   .navlist {
     flex-direction: column;
-    width: 70%;
+    width: 100%;
   }
 
   .logo {
