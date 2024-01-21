@@ -15,15 +15,15 @@ header {
 
 section {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 100%;
+    max-width: 97%;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-direction: row;
+    flex-direction: column;
     /* Change flex direction to row */
 
     /* Align items in the center of the row */
