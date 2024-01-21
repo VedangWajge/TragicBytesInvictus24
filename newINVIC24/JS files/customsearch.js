@@ -1,22 +1,4 @@
-// Dummy data for internship listings
-// const internships = [
-//     {
-//         title: "Internshala Student Partner",
-//         duration: "7 Weeks",
-//         stipend: "Unpaid"
-//     },
-//     {
-//         title: "INTERNSHALA Work From Home",
-//         duration: "7 Weeks",
-//         stipend: "Unpaid"
-//     },
-//     {
-//         title: "Robotics ERIC Robotics PSIPIL",
-//         location: "Wasuli, Chinchwad, Pune, Chakan",
-//         stipend: "Unpaid"
-//     }
-// ];
-
+let internships = document.getElementById("")
 // Function to display internships
 function displayInternships() {
     const internshipList = document.getElementById("internshipList");
