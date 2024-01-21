@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 .navbar {
   display: flex;
   position: sticky;
@@ -53,19 +54,21 @@
   justify-content: center;
   margin: auto;
 }
+
 .btn {
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  .btn-sm {
-    width: 100px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-sm {
+  width: 100px;
   border-radius: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -80,33 +83,39 @@
 }
 
 .btn-sm:hover {
-  background-color:rgb(194, 194, 194) ;
+  background-color: rgb(194, 194, 194);
 }
-  
+
 /* navbar */
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
-    /* padding: 20px; */
-    margin-top: auto; /* Push the footer to the bottom */
+  background-color: #333;
+  color: white;
+  /* padding: 20px; */
+  margin-top: auto;
+  /* Push the footer to the bottom */
 }
+
 footer .panel1,
 footer .panel2 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 footer .list1 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
+
 footer ul {
-    list-style-position: inside;
-    padding-left: 0;
-    margin: 0;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
 }
+
 footer li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
+
 .panel1 {
   /* display: grid;
   justify-content: center;
@@ -179,15 +188,67 @@ footer li {
 
 /* footer */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensure that the body takes at least the full viewport height */
-}
-.content {
-    flex: 1; /* This will make the content area take up the available space */
-    padding: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Ensure that the body takes at least the full viewport height */
 }
 
+.content {
+  flex: 1;
+  /* This will make the content area take up the available space */
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 15px;
+  }
+}
