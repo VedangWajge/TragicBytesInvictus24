@@ -10,7 +10,7 @@
 
 h1 {
     text-align: center;
-    color: orange;
+    color: #3498db;
 }
 
 label, input, select, textarea {
@@ -38,7 +38,7 @@ button {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: orange;
+    background-color: #3498db;
     cursor: pointer;
 }
 
