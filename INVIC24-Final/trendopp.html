@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Opportunities</title>
+    <link rel="stylesheet" href="../newINVIC24/Css files/trendopp.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="navlist">
+            <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
+                    <h1>Internify</h1>
+                </a></div>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="service.html">Community</a></li>
+            <li> <a href="recruit.html">Hire Interns</a></li>
+            <li><a href="customsearch.html">Internship</a></li>
+            <div class="navright">
+                <button class="btn btn-sm" id="regId" onclick="redirectToReg()"> Register</button>
+                <button class="btn btn-sm" id="logId" onclick="redirectToLog()">Login </button>
+            </div>
+    </nav>
+
+    <h1>
+        Hey, Students!
+    </h1>
+
+    <div class="search-container">
+        <h1>Find Yourself an Internship Now</h1>
+        <p>Internships near you provided</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter skills / designations / companies">
+            <select>
+                <option>Select experience</option>
+                <option value="fresher">Fresher(less than zero)</option>
+                <option value="1">1 year</option>
+                <option value="2">2 years</option>
+                <option value="3">3 year</option>
+                <option value="4">4 years</option>
+                <option value="5">5 years+</option>
+            </select>
+            <input type="text" placeholder="Enter location">
+            <button onclick="searchJobs()">Search</button>
+        </div>
+
+        <header>
+            <h1>Trending Opportunities</h1>
+        </header>
+
+        <section class="container">
+            <div class="course">
+                <img src="../newINVIC24/img files/WhatsApp Image 2024-01-21 at 8.34.10 AM.jpeg"
+                    alt="Web Development Fundamentals">
+                <h2>Web Development Fundamentals</h2>
+                <p>Master the basics of HTML, CSS, and JavaScript to build responsive websites.</p>
+            </div>
+
+            <div class="course">
+                <img src="../newINVIC24/img files/WhatsApp Image 2024-01-21 at 10.32.22 AM.jpeg"
+                    alt="Data Science with Python">
+                <h2>Data Science with Python</h2>
+                <p>Explore the world of data science using Python and popular libraries like Pandas and NumPy.</p>
+            </div>
+
+            <div class="course">
+                <img src="../newINVIC24/img files/WhatsApp Image 2024-01-21 at 8.34.10 AM (1).jpeg"
+                    alt="Mobile App Development with React Native">
+                <h2>Mobile App Development with React Native</h2>
+                <p>Learn to build cross-platform mobile apps using React Native framework.</p>
+            </div>
+
+            <div class="course">
+                <img src="../newINVIC24/img files/WhatsApp Image 2024-01-21 at 8.34.10 AM (2).jpeg"
+                    alt="Machine Learning for Beginners">
+                <h2>Machine Learning for Beginners</h2>
+                <p>An introduction to machine learning concepts and algorithms for beginners.</p>
+            </div>
+
+            <!-- Add more courses as needed -->
+
+        </section>
+
+
+        <footer>
+            <div class="panel1"> <a href="#" style="text-align: center; color: white;">Back to top</a></div>
+
+            <div class="panel2">
+
+                <div class="list1">
+                    <p style="font-weight: 700;font-size: 16px; color: white; ">Internship by places</p>
+                    <style>
+                        ul {
+                            list-style-position: inside;
+                            padding-left: 0;
+                        }
+                    </style>
+                    <ul>
+                        <li><a href="#">Internship in India</a></li>
+                        <li><a href="#">Internship in Banglore</a></li>
+                        <li><a href="#">Internship in Mumbai</a></li>
+                        <li><a href="#">Internship in Pune</a></li>
+                        <li><a href="#">Internship in Delhii</a></li>
+                        <li><a href="#">Internship in Jaipur</a></li>
+                        <li><a href="#">Internship in Chennai</a></li>
+                    </ul>
+                </div>
+
+                <div class="list1">
+                    <p style="font-weight: 700;font-size: 16px; color: white; ">Internship by Stream</p>
+                    <ul>
+                        <li><a href="#">Computer Science Internship</a></li>
+                        <li><a href="#">Electronics Internship</a></li>
+                        <li><a href="#">Mechanical Internship</a></li>
+                        <li><a href="#">Civil Internship</a></li>
+                        <li><a href="#">Marketing Internship</a></li>
+                        <li><a href="#">Chemical Internship</a></li>
+                        <li><a href="#">Finance Internship</a></li>
+                        <li><a href="#">Summer Research Internship</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div class="list1">
+                    <p style="font-weight: 700;font-size: 16px; color: white; ">About Internify</p>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="recruit.html">Hire interns for your company</a></li>
+                        <li><a href="#">Team Diary</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Summer Research Internship</a></li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>

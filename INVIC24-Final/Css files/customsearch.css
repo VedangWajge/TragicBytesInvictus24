@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+section {
+    width: 115%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+button,
+checkbox {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.job-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+}
+
+.status {
+    color: green;
+}
+
+.work-from-home {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+
+.search-container {
+    display: flex;
+    align-items: baseline;
+    margin: 0 15px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+/*Nav bar */
+.navbar {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    top: 0;
+      height: 56px;
+      padding: 0;
+    background-color: #3498db;
+    /* opacity: 1; */
+    z-index: 3;
+  }
+  
+  .navlist {
+    width: 90%;
+    background-color: #3498db;
+    display: flex;
+  }
+  
+  .navlist li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 4px 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navlist li a:hover {
+    color: gray;
+  }
+  
+  .navright {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    background-color: #3498db;
+    width: 50%;
+    text-align: right;
+    justify-content: center;
+    margin: auto;
+  }
+/*Nav bar */

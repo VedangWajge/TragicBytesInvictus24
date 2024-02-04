@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Engineering Internships</title>
+	<link rel="stylesheet" type="text/css" href="Css files/customsearch.css">
+	<link rel="stylesheet" href="./Css files/index.css">
+
+</head>
+
+<body>
+
+
+	<nav class="navbar">
+		<ul class="navlist">
+			<div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
+					<h1>Internify</h1>
+				</a></div>
+			<li> <a href="index.html">Home</a></li>
+			<li> <a href="about.html">About</a></li>
+			<li> <a href="service.html">Community</a></li>
+			<li> <a href="recruit.html">Hire Interns</a></li>
+			<li><a href="customsearch.html">Internship</a></li>
+
+
+
+			<div class="navright">
+				<button class="btn btn-sm" id="regId" onclick="redirectToReg()"> Register</button>
+				<button class="btn btn-sm" id="logId" onclick="redirectToLog()">Login </button>
+			</div>
+	</nav>
+	<main>
+		<section id="filters">
+			<h2>Filters</h2>
+			<form id="filterForm">
+				<label for="preferences">As per my preferences:</label>
+				<select id="preferences" name="preferences">
+					<option value="all">All</option>
+					<option value="profile">Profile</option>
+					<option value="location">Location</option>
+					<option value="work-from-home">Work from home</option>
+					<option value="part-time">Part-time</option>
+					<option value="stipend">Desired minimum monthly stipend</option>
+				</select>
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location" placeholder="e.g., Delhi">
+				<label for="work-from-home">Work from home:</label>
+				<input type="checkbox" id="work-from-home" name="work-from-home">
+				<label for="part-time">Part-time:</label>
+				<input type="checkbox" id="part-time" name="part-time">
+				<label for="stipend">Desired minimum monthly stipend (£):</label>
+				<input type="range" id="stipend" name="stipend" min="0" max="10000" step="2000" value="0">
+				<button type="button" onclick="applyFilters()">Apply filters</button>
+				<button type="button" onclick="clearFilters()">Clear all</button>
+			</form>
+		</section>
+
+		<section id="listings">
+			<h2>Internship Listings</h2>
+			<form id="searchForm">
+				<label for="search">Keyword Search:</label>
+				<input type="text" id="search" name="search" placeholder="e.g., Design, Mumbai Infosys">
+				<button type="button" onclick="searchInternships()">Search</button>
+			</form>
+			<ul id="internshipList">
+
+			</ul>
+			<div class="job-card" id="jobcard">
+				<div class="status">Actively hiring</div>
+				<h2>Social Entrepreneurship</h2>
+				<p>Hamari Pahchan NGO</p>
+				<div class="work-from-home">Work From Home</div>
+				<ul>
+					<li><strong>START DATE:</strong> Immediately</li>
+					<li><strong>DURATION:</strong> 1 Month</li>
+					<li><strong>STIPEND:</strong> 10% of Revenue Generated</li>
+				</ul>
+				<div class="posted">2 weeks ago | Internship with job offer | Part time</div>
+				<button onclick="viewDetails()">View details</button>
+			</div>
+
+			<div class="job-card" id="jobcard">
+				<div class="status">Actively hiring</div>
+				<h2>WhatsApp Marketing</h2>
+				<p>Corizo EduTech</p>
+				<div class="work-from-home">Work From Home</div>
+				<ul>
+					<li><strong>START DATE:</strong> Immediately</li>
+					<li><strong>DURATION:</strong> 2 Months</li>
+					<li><strong>STIPEND:</strong>₹ 1,000-10,000 /month</li>
+				</ul>
+				<div class="posted">4 days ago | Internship with job offer | Part time</div>
+				<button onclick="viewDetails1()">View details</button>
+			</div>
+
+			<div class="job-card" id="jobcard">
+				<div class="status">Actively hiring</div>
+				<h2>Marketing</h2>
+				<p>Xsoln</p>
+				<div class="work-from-home">Work From Home</div>
+				<ul>
+					<li><strong>START DATE:</strong> Immediately</li>
+					<li><strong>DURATION:</strong>3 Months</li>
+					<li><strong>STIPEND:</strong>₹ 8,000 /month</li>
+				</ul>
+				<div class="posted">2 days ago | Internship </div>
+				<button onclick="viewDetails3()">View details</button>
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<p>Final hours to get FREE Placement Assistance OFFER By enrolling in online trainings at 55%+10% OFF! Choose
+			from Web Dev., React Java Python & more Internify Certified Trainings Enroll now ></p>
+	</footer>
+
+
+	<script>
+		function viewDetails1() {
+			window.location.href = "internships.html";
+		}
+
+		function viewDetails2() {
+			window.location.href = "internship2.html";
+		}
+
+		function viewDetails3() {
+			window.location.href = "internship3.html";
+		}
+
+		function viewDetails4() {
+			window.location.href = "internship4.html";
+		}
+	</script>
+
+	<script src="csbox.js"></script>
+	<script src="JS files/customsearch.js"></script>
+</body>
+
+</html>

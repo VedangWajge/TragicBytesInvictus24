@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css files/recruit.css" />
+
+</head>
+<body>
+    
+
+<form id="jobPostForm">
+    <h1>Post Your Internship</h1>
+    <label for="jobTitle">Internship Title*</label>
+    <input type="text" id="jobTitle" name="jobTitle" required>
+
+    <label for="jobType">Internship Type*</label>
+    <select id="jobType" name="jobType" required>
+        <option value="" disabled selected>Choose Internship Type</option>
+        <option value="fullTime">Office</option>
+        <option value="partTime">Online</option>
+        <option value="freelance">Hybrid</option>
+        <!-- Add other job types as needed -->
+    </select>
+
+    <div class="dropdown">
+        <button>Qualification / Eligibility (6)</button>
+        <div class="dropdown-content">
+          <p>Any Graduate</p>
+          <label><input type="checkbox" /> B.Arch</label>
+          <label><input type="checkbox" /> B.Com</label>
+          <label><input type="checkbox" /> B.Pharm</label>
+          <label><input type="checkbox" /> BA</label>
+          <label><input type="checkbox" /> BBA/BBM</label>
+          <label><input type="checkbox" /> BCA</label>
+          <label><input type="checkbox" /> BDS</label>
+          <label><input type="checkbox" /> BE/B.Tech</label>
+          <label><input type="checkbox" /> BEd</label>
+          <label><input type="checkbox" /> BHM</label>
+          <label><input type="checkbox" /> BSc</label>
+          <label><input type="checkbox" /> BVSc</label>
+          <label><input type="checkbox" /> CA</label>
+          <label><input type="checkbox" /> CS</label>
+        </div>
+      </div>
+
+    <label for="location">Choose Your Location*</label>
+    <select id="location" name="location" required>
+        <option value="" disabled selected>Select Location</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="delhi">Delhi</option>
+        <option value="bangalore">Bangalore</option>
+        <option value="chennai">Chennai</option>
+        <!-- Add other locations as needed -->
+    </select>
+
+    <label for="salaryMin">Monthly Salary (Min)*</label>
+    <input type="number" id="salaryMin" name="salaryMin" required>
+
+    <label for="salaryMax">Monthly Salary (Max)*</label>
+    <input type="number" id="salaryMax" name="salaryMax" required>
+
+    <label for="hideSalary">Hide salary to applicants</label>
+    <input type="checkbox" id="hideSalary" name="hideSalary">
+
+    <label for="hiringProcess">Hiring Process*</label>
+    <div id="hiringProcess">
+        <input type="checkbox" id="faceToFace" name="hiringProcess" value="faceToFace">
+        <label for="faceToFace">Face to Face</label>
+        <input type="checkbox" id="writtenTest" name="hiringProcess" value="writtenTest">
+        <label for="writtenTest">Written-test</label>
+        <input type="checkbox" id="telephonic" name="hiringProcess" value="telephonic">
+        <label for="telephonic">Telephonic</label>
+        <input type="checkbox" id="groupDiscussion" name="hiringProcess" value="groupDiscussion">
+        <label for="groupDiscussion">Group Discussion</label>
+        <input type="checkbox" id="walkIn" name="hiringProcess" value="walkIn">
+        <label for="walkIn">Walk In</label>
+        <!-- Add other hiring process options as needed -->
+    </div>
+
+    <button id="additionalInfo">Additional Information +</button>
+    <div id="additionalInfoContent" style="display: none;">
+        <!-- Add additional information fields here -->
+    </div>
+
+    <label for="jobDescription">Job Description*</label>
+    <textarea id="jobDescription" name="jobDescription" required></textarea>
+    <div id="textFormat">
+        <!-- Add text formatting options here -->
+    </div>
+
+    <button type="submit">Post Your Job</button>
+</form>
+<script src="JS files/recruit.js"></script>
+</body>
+</html>
