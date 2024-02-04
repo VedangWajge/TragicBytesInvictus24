@@ -16,29 +16,13 @@
             <div class="logo"><a href="index.html" style="text-decoration: none; color: white;">
                     <h1>Internify</h1>
                 </a></div>
-            <li> <a href="index.html">Home</a></li>
+            <li> <a href="home.html">Home</a></li>
             <li> <a href="about.html">About</a></li>
-            <li> <a href="service.html">Community</a></li>
-            <li> <a href="contactus.html">Contact Us</a></li>
+            <li> <a href="about.html">Community</a></li>
+            <li> <a href="recruit.html">Hire Interns</a></li>
             <li><a href="customsearch.html">Internship</a></li>
-
-            <!-- <li class="nav-item" onmouseover="showOptions(this)" onmouseout="hideOptions()"> <a href="#" >Internship</a>
-                <div class="options-window">
-                    <ul>
-                    <li><a href="#">Work From Home</a></li>
-                    <li><a href="#">Internship in Bangalore</a></li>
-                    <li><a href="#">Internship in Mumbai</a></li>
-                    <li><a href="#">Internship in Delhii</a></li>
-                    <li><a href="#">Internship in Hyderabad</a></li>
-                    <li><a href="#">Internship in Chennai</a></li>
-                    <li><a href="#">Internship in Pune</a>
-                </ul>
-
-                </div>
-            </li> -->
-
             <div class="navright">
-                <button class="btn btn-sm" id="regId" onclick="redirectToProfile()"> User Profile</button>
+                <button class="btn btn-sm" id="regId" onclick="redirectToProfile()">User Profile</button>
                 <!-- <button class="btn btn-sm" id="logId" onclick="redirectToLog()">Login </button> -->
             </div>
     </nav>
@@ -73,29 +57,68 @@
     </div>
 
     <section class="tab1">
+        <h1 id="mainhead">Recommended for you</h1>
+        <p id="sechead">as per your <span style="color: #008BDC;">preferences</span></p>
         <div class="tab2">
             <div class="tab3">
-                <img src="./ggicons/coins.png" alt="img" class="tab4">
-                <p class="t1">Discover a sustainable solution</p>
-                <p class="t2">Whether you're looking to responsibly dispose of your electronic waste or recycle your old
-                    devices e-Waste Portal has the perfect solution for you. Explore our wide range of electronic waste
-                    disposal options and recycling routes.
-                </p>
+                <div class="job-card">
+                    <div class="status">Actively hiring</div>
+                    <h2 class="status2">Social Entrepreneurship</h2>
+                    <p>Hamari Pahchan NGO</p>
+                    <div class="work-from-home">Work From Home</div>
+                    <ul>
+                        <li><strong>START DATE:</strong> Immediately</li>
+                        <li><strong>DURATION:</strong> 1 Month</li>
+                        <li><strong>STIPEND:</strong> 10% of Revenue Generated</li>
+                    </ul>
+                    <div class="posted">2 weeks ago | Internship with job offer | Part time</div>
+                    <button onclick="viewDetails1()" id="viewDetails">View details</button>
+                </div>
             </div>
             <div class="tab3">
-                <img src="./ggicons/trustcard.png" alt="img" class="tab4">
-                <p class="t1">Trust our E-Waste Community</p>
-                <p class="t2">We prioritize building a community of trust. We believe in taking the time to understand
-                    each of our members and e-Waste disposal partners so that you know whom you are donating and can
-                    recycle at ease on our secure platform.
-                </p>
+                <div class="job-card">
+                    <div class="status">Actively hiring</div>
+                    <h2>WhatsApp Marketing</h2>
+                    <p>Corizo EduTech</p>
+                    <div class="work-from-home">Work From Home</div>
+                    <ul>
+                        <li><strong>START DATE:</strong> Immediately</li>
+                        <li><strong>DURATION:</strong> 1 Month</li>
+                        <li><strong>STIPEND:</strong> 1000-10000/ month</li>
+                    </ul>
+                    <div class="posted">2 weeks ago | Internship with job offer | Part time</div>
+                    <button onclick="viewDetails2()" id="viewDetails">View details</button>
+                </div>
             </div>
             <div class="tab3">
-                <img src="./ggicons/current.png" alt="img" class="tab4">
-                <p class="t1">Scroll, click, tap and go!</p>
-                <p class="t2">Recycling your E-devices has never been easier! Thanks to our simple web portal powered by
-                    great technology, you can recycle your E-device in just minutes.
-                </p>
+                <div class="job-card">
+                    <div class="status">Actively hiring</div>
+                    <h2>Marketing</h2>
+                    <p>Xsoln</p>
+                    <div class="work-from-home">Work From Home</div>
+                    <ul>
+                        <li><strong>START DATE:</strong> Immediately</li>
+                        <li><strong>DURATION:</strong> 3 Months</li>
+                        <li><strong>STIPEND:</strong> 8000/month</li>
+                    </ul>
+                    <div class="posted">2 weeks ago | Internship with job offer | Part time</div>
+                    <button onclick="viewDetails3()" id="viewDetails">View details</button>
+                </div>
+            </div>
+            <div class="tab3">
+                <div class="job-card">
+                    <div class="status">Actively hiring</div>
+                    <h2>Marketing</h2>
+                    <p>Careers360</p>
+                    <div class="work-from-home">Work From Home</div>
+                    <ul>
+                        <li><strong>START DATE:</strong> Immediately</li>
+                        <li><strong>DURATION:</strong> 2 Months</li>
+                        <li><strong>STIPEND:</strong>₹ 15,000 lump sum + Incentives</li>
+                    </ul>
+                    <div class="posted">Posted 3 days ago | Internship with job offer | Part time</div>
+                    <button onclick="viewDetails4()" id="viewDetails">View details</button>
+                </div>
             </div>
         </div>
     </section>
@@ -118,25 +141,16 @@
         </div>
     </section>
 
-
-    <section class="footer">
-
-        </div>
-        <!-- <div class="footerright">
-            <p class="social">Connect with us</p>
-            <div class="social2">
-                <a href="https://www.facebook.com/ewasterj/"><img src="./ggicons/facebook.png" alt="facebook"
-                        class="connect"></a>
-                <a href="https://www.instagram.com/ewasterj/?igshid=MzRlODBiNWFlZA%3D%3D"><img
-                        src="./ggicons/instagram.png" alt="instagram" class="connect"></a>
-                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FEwasteRJ"><img
-                        src="./ggicons/twitter.png" alt="twitter" class="connect"></a>
-                <a href="https://www.youtube.com/channel/UC5t1yzcu3o5OGSsONxZc9yg"><img src="./ggicons/youtube.png"
-                        alt="youtube" class="connect"></a>
+    <section class="tab1">
+        <h1 id="mainhead">Top companies hiring now</h1>
+        <div class="tab2">
+            <div class="tab3">
+                <img src="img files/recrt.png" alt="">
             </div>
-        </div> -->
+        </div>
     </section>
-
+    
+   
     <footer>
         <div class="panel1"> <a href="#" style="text-align: center; color: white;">Back to top</a></div>
 
@@ -192,28 +206,11 @@
 
                 </ul>
             </div>
-
-            <!-- <div class="list1">
-                <p style="font-weight: 700;font-size: 16px; color: white; ">Let Us Help You</p>
-                <ul>
-                    <li><a href="#">Amazon and COVID-19</a></li>
-                    <li><a href="#">Your Account</a></li>
-                    <li><a href="#"> Your Orders</a></li>
-                    <li><a href="#">Shipping Rates & Policies</a></li>
-                    <li><a href="#"> Returns & Replacement</a></li>
-                    <li><a href="#">Manage Your Content and Devices</a></li>
-                    <li><a href="#">Amazon Assistant</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
-            </div> -->
         </div>
-
-        <!-- <div class="panel3">
-            <img src="amazon_logo.png" alt="logo">
-        </div> -->
     </footer>
 
     <script src="./JS files/loginregister.js"></script>
+    <script src="JS files/csbox.js"></script>
 </body>
 
 </html>
